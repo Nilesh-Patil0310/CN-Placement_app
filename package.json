@@ -1,0 +1,23 @@
+{
+  "name": "placement_app",
+  "version": "1.0.0",
+  "description": "The Placement Cell Application the students those who are enroller in carrier camp profetional cource of fullstack web development",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilesh-Patil0310/CN-Placement_app.git"
+  },
+  "author": "Nilesh Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilesh-Patil0310/CN-Placement_app/issues"
+  },
+  "homepage": "https://github.com/Nilesh-Patil0310/CN-Placement_app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
