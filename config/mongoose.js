@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 async function db() {
   mongoose.set("strictQuery", true);
   await mongoose.connect(
-    "mongodb+srv://ernileshpatil098:rQHVVwUaZS7BPi1Y@cluster0.omo5kfv.mongodb.net/placement-cell?retryWrites=true&w=majority"
+    "mongodb+srv://Nilesh078:Nilesh078@placement-cell.svk5dx0.mongodb.net/?retryWrites=true&w=majority&appName=Placement-Cell"
   );
-  console.log("connection Successfull !! ");
+  console.log("db connection Successfull !! ");
 }
 db().catch((error) => console.log("connection not successfull !!"));
